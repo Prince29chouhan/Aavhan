@@ -9,7 +9,8 @@ h1 {
     justify-content: center;
     
 
-    color: rgb(0, 0, 0);
+    color: rgb(239, 232, 232);
+    text-shadow: 4px 4px 4px #2c2b2b;;
   }
 btn {
     font-size: 80px;
@@ -23,4 +24,11 @@ btn {
     
 
     color: rgb(0, 0, 0);
+  }
+  .new {
+   
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: repeat ,repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
   }
